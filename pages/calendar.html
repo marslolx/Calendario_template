@@ -37,7 +37,7 @@
       <!-- mini logo for sidebar mini 50x50 pixels -->
       <span class="logo-mini"><b>A</b>LT</span>
       <!-- logo for regular state and mobile devices -->
-      <span class="logo-lg"><b>Admin</b>LTE</span>
+      <span class="logo-lg"><b>Calendario</b></span>
     </a>
     <!-- Header Navbar: style can be found in header.less -->
     <nav class="navbar navbar-static-top">
@@ -320,7 +320,7 @@
       <ul class="sidebar-menu">
         <li class="header">MAIN NAVIGATION</li>
         <li>
-          <a href="pages/calendar.html">
+          <a href="calendar.html">
             <i class="fa fa-calendar"></i> <span>Calendario</span>
             <span class="pull-right-container">
               <!--<small class="label pull-right bg-red">3</small>
@@ -329,7 +329,7 @@
           </a>
         </li>
         <li>
-        	<a href="pages/estrenos.html">
+        	<a href="estrenos.html">
             <i class="fa fa-play-circle-o"></i> <span>Estrenos</span>
           </a>
         </li>
@@ -355,12 +355,12 @@
         </li>
         <li>
         	<a href="">
-            <i class="fa fa-play-circle-o"></i> <span>DDJJ Distribuidor</span>
+            <i class="fa fa-film"></i> <span>DDJJ Distribuidor</span>
           </a>
         </li>
         <li>
         	<a href="">
-            <i class="fa fa-play-circle-o"></i> <span>Administrador</span>
+            <i class="fa fa-code"></i> <span>Administrador</span>
           </a>
         </li>
         <li class="header">LABELS</li>
@@ -392,16 +392,16 @@
         <div class="col-md-3">
           <div class="box box-solid">
             <div class="box-header with-border">
-              <h4 class="box-title">Eventos Arrastrables</h4>
+              <h4 class="box-title">Peliculas</h4>
             </div>
             <div class="box-body">
               <!-- the events -->
               <div id="external-events">
-                <div class="external-event bg-green"></div>
-                <div class="external-event bg-yellow"></div>
-                <div class="external-event bg-aqua"></div>
-                <div class="external-event bg-light-blue"></div>
-                <div class="external-event bg-red"></div>
+                <div class="external-event bg-green">Animales Fantásticos</div>
+                <div class="external-event bg-yellow">Esperando la Carroza</div>
+                <div class="external-event bg-aqua">Doctor Strange</div>
+                <div class="external-event bg-light-blue">Victimas de Tangalanga</div>
+                <div class="external-event bg-red">El Jugador</div>
                 <div class="checkbox">
                   <label for="drop-remove">
                     <input type="checkbox" id="drop-remove">
@@ -739,7 +739,7 @@
         day: 'Día'
       },
       //Random default events
-      events: [
+    /*  events: [
         {
           title: '',
           start: new Date(y, m, 1),
@@ -784,7 +784,7 @@
           backgroundColor: "#3c8dbc", //Primary (light-blue)
           borderColor: "#3c8dbc" //Primary (light-blue)
         }
-      ],
+      ],*/
       editable: true,
       droppable: true, // this allows things to be dropped onto the calendar !!!
       drop: function (date, allDay) { // this function is called when something is dropped
